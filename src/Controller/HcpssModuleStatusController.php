@@ -42,6 +42,6 @@ final class HcpssModuleStatusController extends ControllerBase {
 
     $calculated_updates = update_calculate_project_data($available);
 
-    return new JsonResponse($calculated_updates);
+    return new JsonResponse(array_values($calculated_updates));
   }
 }
