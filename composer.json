@@ -1,0 +1,13 @@
+{
+    "name": "drupal/hcpss_module_status",
+    "description": "Exposes module status as JSON",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Brendan Anderson",
+            "email": "brendan_anderson@hcpss.org"
+        }
+    ],
+    "require": {}
+}

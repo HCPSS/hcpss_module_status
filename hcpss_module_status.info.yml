@@ -1,0 +1,5 @@
+name: 'HCPSS Module Status'
+type: module
+description: 'Expose module status information as JSON.'
+package: HCPSS
+core_version_requirement: ^10 || ^11

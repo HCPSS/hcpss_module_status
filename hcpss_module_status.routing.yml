@@ -1,0 +1,7 @@
+hcpss_module_status.status:
+  path: '/module-status'
+  defaults:
+    _title: 'Module Status'
+    _controller: '\Drupal\hcpss_module_status\Controller\HcpssModuleStatusController'
+  requirements:
+    _permission: 'access module status'

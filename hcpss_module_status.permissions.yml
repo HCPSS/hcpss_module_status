@@ -1,0 +1,4 @@
+access module status:
+  title: 'Access module status'
+  description: 'Access information about module update status'
+  restrict access: true
